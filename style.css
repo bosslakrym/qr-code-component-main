@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Outfit:wght@400;700&family=Roboto&display=swap');
+
+
+body {
+    background: #d5e1ef;
+    margin-left: 7%; 
+    margin-right: 7%; 
+    font-family: 'Outfit','Barlow Semi Condensed', sans-serif ;
+}
+.container {
+ height: 95vh;
+ padding: 5%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.card {
+align-content: center;
+justify-content: center;
+background-color: white;
+border-radius: 10px;
+width: 250px;
+height: 390px;
+}
+.qr {
+    border-radius: 10px;
+    width: 230px;
+    margin: 10px 10px 20px 10px;
+    height: 220px;
+    display: block;
+}
+.card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    font-family: "Outfit Bold", sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    color: rgb(31, 50, 81)
+}
+.card p {
+    text-align: center;
+    opacity: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+.footer {
+    background: #d5e1ef;
+    text-align: center;
+    font-family: "Outfit Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(0, 0, 0)
+}
